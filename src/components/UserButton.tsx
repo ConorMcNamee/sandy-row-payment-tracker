@@ -1,21 +1,20 @@
 
 import './user_button_styles.css'
+import { User } from '../types/User'
 
 interface UserButtonProps {
-    fullName: string,
-    dateOfPayment: string,
-    hasPaid: boolean
+    user: User
 }
 
 
-export default function UserButton({fullName, dateOfPayment, hasPaid}: UserButtonProps) {
+export default function UserButton({user}: UserButtonProps) {
     return (
         <div className="user-container">
             <div className="user-name-container">
-                <p class="user-name">{fullName}</p>
+                <p class="user-name">{user.fullName}</p>
             </div>
             <div className="user-content">
-                <p>{dateOfPayment}</p>
+                <p>{user.dateOfPayment}</p>
             </div>
         </div>
     )
