@@ -27,7 +27,9 @@ export function Home() {
 			<h1>Members</h1>
 			<section className="user-section">
 			{users.map(user => (
-        		<UserButton user={user} />
+        		<a href={`/user/${user.id}`}>
+					<UserButton user={user} />
+				</a>
       		))}
 			</section>
 			<section className="button-section">
