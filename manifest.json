@@ -3,7 +3,7 @@
     "name": "Sandy Row Payment Tracker",
     "icons": [
         {
-            "src": "/src/assets/sandy_row.png",
+            "src": "/public/sandy_row.png",
             "type": "image/png",
             "sizes": "144x144"
         },
@@ -11,7 +11,13 @@
             "src": "/public/vite.svg",
             "type": "image/svg+xml",
             "sizes": "any"
+        },
+        {
+            "src": "/public/preact.svg",
+            "type": "image/svg+xml",
+            "sizes": "32x32"
         }
+
     ],
     "start_url": "/index.html",
     "background_color": "#B0BEC5",
