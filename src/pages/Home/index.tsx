@@ -6,6 +6,14 @@ import './style.css';
 import { useState, useEffect } from "preact/hooks"
 
 const TestUsers: User[] = [
+	{id: 1, fullName: "Mark Reid", dateOfPayment: "10/06/2024", hasPaid: true},
+	{id: 1, fullName: "Mark Reid", dateOfPayment: "10/06/2024", hasPaid: true},
+	{id: 1, fullName: "Mark Reid", dateOfPayment: "10/06/2024", hasPaid: true},
+	{id: 1, fullName: "Mark Reid", dateOfPayment: "10/06/2024", hasPaid: true},
+	{id: 1, fullName: "Mark Reid", dateOfPayment: "10/06/2024", hasPaid: true},
+	{id: 1, fullName: "Mark Reid", dateOfPayment: "10/06/2024", hasPaid: true},
+	{id: 1, fullName: "Mark Reid", dateOfPayment: "10/06/2024", hasPaid: true},
+	{id: 1, fullName: "Mark Reid", dateOfPayment: "10/06/2024", hasPaid: true},
 	{id: 1, fullName: "Mark Reid", dateOfPayment: "10/06/2024", hasPaid: true}
 ]
 
